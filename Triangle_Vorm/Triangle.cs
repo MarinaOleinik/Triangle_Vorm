@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Triangle_Vorm
 {
-    class Triangle
+    public class Triangle
     {
         public double a; // первая сторона
         public double b; // вторая сторона
@@ -48,7 +48,7 @@ namespace Triangle_Vorm
             }
         }
 
-public string outputA() // выводим сторону а, данный метод возвращает строковое значение (атрибут string)
+        public string outputA() // выводим сторону а, данный метод возвращает строковое значение (атрибут string)
         {
             return Convert.ToString(a); // a - ссылка на внутреннее поле объекта класса
         }
