@@ -38,7 +38,7 @@ namespace Triangle_Vorm
             set
             {c = value;}
         }
-        public bool ExistTriange // свойство позволяющее установить, существует ли треугольник с заданыыми сторонами
+        public bool ExistTriangle // свойство позволяющее установить, существует ли треугольник с заданыыми сторонами
         {
             get
             {
