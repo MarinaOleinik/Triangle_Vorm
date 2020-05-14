@@ -117,58 +117,172 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Mongolian Baiti, 27.75pt</value>
   </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>501, 49</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 133</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>784, 361</value>
-  </data>
   <data name="button1.Text" xml:space="preserve">
     <value>Запуск</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>223, 133</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Form1</value>
   </data>
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
   </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;button1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Работа с треугольником</value>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        RK5CYII=
+</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>549, 188</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 141</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ru</value>
-  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 361</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Работа с треугольником</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
