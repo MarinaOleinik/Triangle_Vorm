@@ -11,11 +11,25 @@ namespace Triangle_Vorm
         public double a; // первая сторона
         public double b; // вторая сторона
         public double c; // третья сторона
+        public double ha; // высота проведенная к стороне а 
         public Triangle(double A, double B, double C) // Конструктор
         {
             a = A; // создаем с заданными длинами сторон согласно заданию
             b = B;
             c = C;
+        }
+        public Triangle() // Конструктор, создаст треугольник без указания переметров треугольника
+        {
+        }
+        public Triangle(double A, double HA) // Конструктор, позволит создать треугольник с указанием основания и высоты проведенной к нему
+        {
+            a = A; // основание треугольника
+            ha = HA;// высота, проведенная к основанию
+        }
+        public double SurfaceAHA() //метод для нахождения площади, если теругольник создан при помощи конструктора public Triangle(double A, double HA) 
+        {
+            double s = (1 / 2) * a * ha;
+            return s;
         }
         public double GetSetA // свойство позволяющее установить либо изменить значение стороны а
         {
