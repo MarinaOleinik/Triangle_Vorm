@@ -56,7 +56,7 @@ namespace Triangle_Vorm
         {
             get
             {
-                if ((a > b + c) && (b > a + c) && (c > a + b))//сумма 2 сторон должна быть больше третьей
+                if ((a < b + c) && (b < a + c) && (c < a + b))//сумма 2 сторон должна быть больше третьей
                 return false;
                 else return true;
             }
