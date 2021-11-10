@@ -26,6 +26,12 @@ namespace Triangle_Vorm
             a = A; // основание треугольника
             ha = HA;// высота, проведенная к основанию
         }
+
+
+
+
+
+
         public double SurfaceAHA() //метод для нахождения площади, если теругольник создан при помощи конструктора public Triangle(double A, double HA) 
         {
             double s = (1 / 2) * a * ha;
@@ -57,8 +63,8 @@ namespace Triangle_Vorm
             get
             {
                 if ((a < b + c) && (b < a + c) && (c < a + b))//сумма 2 сторон должна быть больше третьей
-                return false;
-                else return true;
+                return true;
+                else return false;
             }
         }
 
