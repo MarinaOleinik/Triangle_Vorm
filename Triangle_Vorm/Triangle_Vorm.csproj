@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="My_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My_form.Designer.cs">
+      <DependentUpon>My_form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Triangle.cs" />
@@ -64,6 +70,9 @@
     <EmbeddedResource Include="Form1.ru.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="My_form.resx">
+      <DependentUpon>My_form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -72,6 +81,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -85,6 +95,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ravnob.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ravnost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\raxnos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lomanaya.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

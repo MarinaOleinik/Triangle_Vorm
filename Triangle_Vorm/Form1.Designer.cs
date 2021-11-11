@@ -32,11 +32,11 @@
             this.Run_button = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.listView1 = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.txtA = new System.Windows.Forms.TextBox();
             this.txtB = new System.Windows.Forms.TextBox();
             this.txtC = new System.Windows.Forms.TextBox();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -59,6 +59,7 @@
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // listView1
             // 
@@ -72,6 +73,14 @@
             this.listView1.Name = "listView1";
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            resources.ApplyResources(this.columnHeader1, "columnHeader1");
+            // 
+            // columnHeader2
+            // 
+            resources.ApplyResources(this.columnHeader2, "columnHeader2");
             // 
             // txtA
             // 
@@ -87,14 +96,6 @@
             // 
             resources.ApplyResources(this.txtC, "txtC");
             this.txtC.Name = "txtC";
-            // 
-            // columnHeader1
-            // 
-            resources.ApplyResources(this.columnHeader1, "columnHeader1");
-            // 
-            // columnHeader2
-            // 
-            resources.ApplyResources(this.columnHeader2, "columnHeader2");
             // 
             // label1
             // 

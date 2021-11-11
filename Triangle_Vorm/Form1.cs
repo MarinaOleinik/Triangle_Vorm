@@ -39,6 +39,30 @@ namespace Triangle_Vorm
             listView1.Items[4].SubItems.Add(Convert.ToString(triangle.Surface())); // выводим значение площади
             if (triangle.ExistTriangle) { listView1.Items[5].SubItems.Add("Существует"); } // свойство Triangle.exist
             else listView1.Items[5].SubItems.Add("Не существует");
+            listView1.Items[6].SubItems.Add(triangle.TriangleType);
+            if (triangle.TriangleType== "равносторонний")
+            {
+                pictureBox1.Image = Properties.Resources.ravnost;
+            }
+            else if (triangle.TriangleType == "равнобедренный")
+            {
+                pictureBox1.Image = Properties.Resources.ravnob;
+            }
+            else if (triangle.TriangleType == "разносторонний")
+            {
+                pictureBox1.Image = Properties.Resources.raxnos;
+            }
+            if (triangle.ExistTriangle!=true)
+            {
+                pictureBox1.Image = Properties.Resources.lomanaya;
+                //pictureBox1.Image = Image.FromFile(@"..\..\Images\filename");
+            }
+        }
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            My_form frm = new My_form();
+            frm.Show();
+            this.Hide();
         }
     }
 }

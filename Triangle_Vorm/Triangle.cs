@@ -67,6 +67,28 @@ namespace Triangle_Vorm
                 else return false;
             }
         }
+        public string TriangleType // свойство позволяющее установить, существует ли треугольник с заданыыми сторонами
+        {
+            get
+            {
+                if (ExistTriangle)
+                {
+                     if (a == b && a == c && b == c)//
+                        return "равносторонний";
+                     else if (a == b || a == c || b == c)
+                        return "равнобедренный";
+                     else 
+                        return "разносторонний";
+                }
+                else
+                {
+                    return "ломаная";
+                }
+                
+                    
+                
+            }
+        }
 
         public string outputA() // выводим сторону а, данный метод возвращает строковое значение (атрибут string)
         {
@@ -82,16 +104,18 @@ namespace Triangle_Vorm
         }
         public double Perimeter() // сумма всех сторон типа double
         {
-            double p = 0;
-            p = a + b + c; // вычисление...
+            double p = a + b + c; // вычисление...
             return p; // возврат
         }
         public double Surface() // аналогично периметру..
         {
             double s = 0;
+            if (ExistTriangle==true)
+            { 
             double p = 0;
             p = (a + b + c) / 2;
             s = Math.Sqrt((p * (p - a) * (p - b) * (p - c)));
+            }
             return s;
         }
 
